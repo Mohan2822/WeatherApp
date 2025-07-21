@@ -1,0 +1,116 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container */
+.container {
+  background: linear-gradient(to bottom right, #38e2b1, #5058a9);
+  width: 350px;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Input and Button Row */
+.col {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+/* Input Field */
+.col input {
+  padding: 12px 16px;
+  border-radius: 25px;
+  border: none;
+  width: 70%;
+  font-size: 16px;
+}
+
+.col input:focus {
+  outline: none;
+  font-size: 16px;
+}
+
+/* Search Button */
+.col button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.col button i {
+  font-size: 20px;
+  color: #5058a9;
+}
+
+/* Weather Image */
+.cloud img {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* Temperature & City */
+h1#tem {
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  margin: 10px 0;
+}
+
+h2#city {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Row for Humidity & Wind */
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.col-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Icons */
+.row-1 img {
+  width: 40px;
+  height: 40px;
+}
+
+/* Text Labels */
+.h p,
+.w p {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
